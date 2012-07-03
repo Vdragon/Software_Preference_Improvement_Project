@@ -1,0 +1,3 @@
+檔案位置 | File Position
+/etc/issue
+	基於Debian的發行版本

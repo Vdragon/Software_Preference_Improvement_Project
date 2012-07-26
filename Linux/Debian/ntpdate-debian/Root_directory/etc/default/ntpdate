@@ -1,0 +1,17 @@
+# The settings in this file are used by the program ntpdate-debian, but not
+# by the upstream program ntpdate.
+
+# Set to "yes" to take the server list from /etc/ntp.conf, from package ntp,
+# so you only have to keep it in one place.
+NTPDATE_USE_NTP_CONF=yes
+
+# List of NTP servers to use  (Separate multiple servers with spaces.)
+# Not used if NTPDATE_USE_NTP_CONF is yes.
+# Ubuntu 12.04LTS預設值
+#NTPSERVERS="ntp.ubuntu.com"
+# 台灣 中華電信研究所時間與頻率國家標準實驗室 國家標準時間
+# 資料來源：http://www.stdtime.gov.tw/chinese/bulletin/NTP%20promo.txt
+NTPSERVERS="tick.stdtime.gov.tw tock.stdtime.gov.tw clock.stdtime.gov.tw time.stdtime.gov.tw watch.stdtime.gov.tw"
+
+# Additional options to pass to ntpdate
+NTPOPTIONS=""

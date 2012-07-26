@@ -1,0 +1,3 @@
+使用說明 | Use Instructions
+將.kernel-pkg.conf設定檔案修改完後置於家目錄下
+全域設定檔於基於Debian的Linux distribution中為/etc/kernel-pkg.conf

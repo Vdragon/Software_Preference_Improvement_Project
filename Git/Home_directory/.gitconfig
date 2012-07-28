@@ -1,0 +1,16 @@
+[user]
+	# Commit者名稱
+		name = Ｖ字龍(Vdragon)
+	# Commit者電子郵件地址
+		email = pika1021@gmail.com
+[core]
+	# 相關操作慣用的文字編輯器
+		editor = vim
+	# 相關操作慣用的文字檢視器
+		pager = less -x4
+[credential]
+	# 保存HTTPS驗證慣用的方式
+		helper = cache
+[color]
+	# 介面色彩設定
+		ui = auto

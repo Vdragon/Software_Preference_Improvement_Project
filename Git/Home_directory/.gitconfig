@@ -7,7 +7,7 @@
 	# 相關操作慣用的文字編輯器
 		editor = vim
 	# 相關操作慣用的文字檢視器
-		pager = less -x4
+		pager = less --tabs=2
 [credential]
 	# 保存HTTPS驗證慣用的方式
 		helper = cache

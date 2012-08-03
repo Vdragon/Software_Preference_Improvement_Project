@@ -1,0 +1,17 @@
+# 警告
+	# 本設定檔不能直接覆蓋！
+	# 本設定檔並不支援以#符號開頭的註解語法！請勿包含於設定檔中！
+	# 本設定檔的擁有者＆群組應為「root」，且不得開放予不具管理權限的使用者寫入的權限，且應開放所有人讀取的權限。	
+# 內容格式
+	# 「群組名稱」:「（停用，改由/etc/gshadow保存）群組密碼」:「使用者群組ID(GID)號碼」:「以半形逗號分隔的，在此群組中的使用者帳號名稱」
+root:x:0:Administrator1,Administrator2
+# adm - 於基於Debian的系統為具有系統管理權限的群組
+adm:x:4:Administrator1,Administrator2
+# sudo - 具有系統管理權限的群組
+sudo:x:27:Administrator1,Administrator2
+# www-data - Web伺服器的群組
+www-data:x:33:Server_administrator1
+Administrator1:x:1000:
+Administrator2:x:1001
+Normal_user1:x:1002:
+Server_administrator1:X:1003

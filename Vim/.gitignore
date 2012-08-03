@@ -1,0 +1,2 @@
+#排除Vim run commands
+!.vimrc

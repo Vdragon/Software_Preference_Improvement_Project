@@ -61,6 +61,12 @@ temp/
 *.exe
 *.executable
 
+#排除函式庫常見副檔名
+*.dll
+*.so
+*.lib
+*.a
+
 #排除由程式產生的資料
 *.dat
 

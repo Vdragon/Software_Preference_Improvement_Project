@@ -29,7 +29,7 @@
 	" 是否顯示列（行）號 | Display the line number
 			"set nonumber 
 			set number 
-	" 是否於下方狀態列的右側顯示目前編輯位置資訊（列、行、所在處百分比）？ 
+	" 是否於下方狀態列的右側顯示目前編輯位置資訊（列、行、所在處百分比）？
 			"set noruler
 			set ruler        
 	" 是否於右下角顯示尚未輸入完全的命令內容

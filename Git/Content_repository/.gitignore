@@ -46,9 +46,6 @@ temp/
 *.o
 *.obj
 
-#排除建構出來的Linux Kernel Object
-*.ko
-
 #因為可執行檔可能包含直譯語言所以不排除可執行檔目錄
 ![Bb]in/
 ![Ee]xecutable/
@@ -258,6 +255,13 @@ planAhead.jou
 #Dev-C++整合式開發環境排除規則
 	#此檔案似乎會由Dev-C++自動生成
 Makefile.win
+
+#Linux作業系統核心開發用排除規則
+Module.symvers
+modules.order
+*.mod.c
+	#排除建構出來的Linux Kernel Object
+*.ko
 
 #我自己的喜好設定
 	#Resources目錄底下的東西為相關資源不要排除掉

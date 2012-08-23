@@ -1,6 +1,6 @@
 ﻿#.gitignore範本
 #.gitignore用途
-	#避免git將不想add至staging area的檔案add到staging area中。
+	#避免git將不想add至staging area的檔案（如可由原始程式碼生成的檔案）add到staging area中。
 #.gitignore語法
 	#可以使用glob patterns
 	#http://en.wikipedia.org/wiki/Glob_%28programming%29

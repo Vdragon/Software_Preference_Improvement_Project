@@ -71,7 +71,7 @@ temp/
 #排除封存／壓縮檔
 *.7z
 *.zip
-*.tar
+*.tar.*
 *.gz
 *.bz2
 *.rar

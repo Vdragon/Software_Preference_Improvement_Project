@@ -83,6 +83,9 @@ temp/
 !*.jpeg
 !*.gif
 
+#排除由原始文件產生的PDF文件
+*.pdf
+
 #Code::Blocks整合式開發環境排除規則
 	#由專案自動產生的檔案
 *.layout

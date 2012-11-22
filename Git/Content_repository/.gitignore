@@ -272,6 +272,13 @@ modules.order
 	#排除建構出來的Linux Kernel Object
 *.ko
 
+#排除 intel HEX 程式
+*.hex
+
+#Keil μVision 整合式開發環境排除規則
+*.uvgui.*
+*.uvopt
+
 #我自己的喜好設定
 	#Resources目錄底下的東西為相關資源不要排除掉
 !Resources/

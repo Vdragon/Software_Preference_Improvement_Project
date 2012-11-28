@@ -281,6 +281,11 @@ modules.order
 *.uvopt
 *.M51
 
+# Geany 整合是開發環境排除規則
+*.gch
+!.geanyprj
+	#Geany alternate project plugin
+
 #我自己的喜好設定
 	#Resources目錄底下的東西為相關資源不要排除掉
 !Resources/

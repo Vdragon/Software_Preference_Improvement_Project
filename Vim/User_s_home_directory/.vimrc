@@ -39,6 +39,9 @@
 	" 背景顏色色調選擇
 			set background=dark
 			"set background=light
+	" 是否折疊太長的列
+			set wrap
+			"set nowrap
 
 " 編輯喜好設定 | Editing preference settings
 	" 縮排設定 | Indentation settings
@@ -84,6 +87,8 @@
 		if has('mouse')
 			set mouse=a
 		endif
+	" 於列字數超過幾個字元時自動插入行結尾字元序列換行（0 為停用）？
+		set textwidth=0
 
 " 搜尋／取代相關設定 | Search/replace settings
 	" 設定搜尋忽略大小寫

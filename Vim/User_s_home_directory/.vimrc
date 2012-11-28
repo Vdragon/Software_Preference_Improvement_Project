@@ -84,9 +84,9 @@
 		set backspace=indent,eol,start
 	" 啟用滑鼠操作
 	" In many terminal emulators the mouse works just fine, thus enable it.
-		if has('mouse')
-			set mouse=a
-		endif
+			if has('mouse')
+				set mouse=a
+			endif
 	" 於列字數超過幾個字元時自動插入行結尾字元序列換行（0 為停用）？
 		set textwidth=0
 

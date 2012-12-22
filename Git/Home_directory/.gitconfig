@@ -10,7 +10,9 @@
 		pager = less --tabs=2
 [credential]
 	# 保存HTTPS驗證慣用的方式
-		helper = cache
+		helper = cache --timeout 3600
+			# --timeout
+			# 	密碼暫存逾時時間（單位：秒）
 [color]
 	# 介面色彩設定
 		ui = auto

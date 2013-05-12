@@ -264,6 +264,10 @@ planAhead.jou
 	#此檔案似乎會由Dev-C++自動生成
 Makefile.win
 
+# CodeLite 整合式開發環境排除規則
+	# 程式碼自動完成功能 tag 資料庫
+*.tags
+
 #Linux作業系統核心開發用排除規則
 .tmp_versions/
 .*.cmd

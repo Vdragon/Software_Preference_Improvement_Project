@@ -45,6 +45,7 @@ temp/
 #排除建構出來的Object code檔案
 *.o
 *.obj
+*.object_code
 Object_code/
 
 #因為可執行檔可能包含直譯語言所以不排除可執行檔目錄

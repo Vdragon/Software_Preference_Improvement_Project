@@ -71,7 +71,10 @@
   </property>
   <property>
     <name>dfs.safemode.extension</name>
-		<value>5000<!-- 5 秒後就自動離開安全模式 --></value>
+		<description>
+			當滿足 dfs.safemode.min.datanode 上線數量後自動離開安全模式的倒數微秒數
+		</description>
+		<value>5000</value>
   </property>
 
 </configuration>

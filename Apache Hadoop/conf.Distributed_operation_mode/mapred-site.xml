@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<!-- 範本 
+  <property>
+    <name></name>
+		<description></description>
+    <value></value>
+  </property>
+	-->
+  <property>
+    <name>mapred.job.tracker</name>
+    <value>localhost:8021</value>
+  </property>
+  <property>
+    <name>mapreduce.jobtracker.jobhistory.location</name>
+		<description>If job tracker is static the history files are stored in this single well known place. If No value is set here, by default, it is in the local file system at ${hadoop.log.dir}/history.</description>
+		<value>/var/lib/hadoop/Mapreduce/${user.name}/jobhistory</value>
+  </property>
+  <property>
+    <name>mapreduce.jobtracker.jobhistory.completed.location</name>
+		<description>The completed job history files are stored at this single well known location. If nothing is specified, the files are stored at ${mapreduce.jobtracker.jobhistory.location}/done.</description>
+    <value>/var/lib/hadoop/Mapreduce/${user.name}/jobhistory.completed</value>
+  </property>	
+  <property>
+    <name>mapreduce.job.userhistorylocation</name>
+		<description>User can specify a location to store the history files of a particular job. If nothing is specified, the logs are stored in output directory. The files are stored in "_logs/history/" in the directory. User can stop logging by giving the value "none".</description>
+    <value>/var/lib/hadoop/Mapreduce/${user.name}/userhistory</value>
+  </property>
+</configuration>

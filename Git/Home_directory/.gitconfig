@@ -5,7 +5,9 @@
 		email = pika1021@gmail.com
 [core]
 	# 相關操作慣用的文字編輯器
-		editor = vim
+		editor = nano
+		# editor = vim
+		# editor = kate --startanon 
 	# 相關操作慣用的文字檢視器
 		pager = less --tabs=2
 	# 直接顯示非 ASCII 字元（而非顯示其跳脫字元序列）

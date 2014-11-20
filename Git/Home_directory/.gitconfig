@@ -8,6 +8,8 @@
 		editor = nano
 	# 相關操作慣用的文字檢視器
 		pager = less --tabs=2
+	# 不用跳脫字元標示非 ASCII 字元
+		quotepath = false
 [credential]
 	# 保存HTTPS驗證慣用的方式
 		helper = cache --timeout 3600

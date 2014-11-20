@@ -6,6 +6,8 @@
 [core]
 	# 相關操作慣用的文字編輯器
 		editor = nano
+		# editor = vim
+		# editor = kate --startanon 
 	# 相關操作慣用的文字檢視器
 		pager = less --tabs=2
 	# 不用跳脫字元標示非 ASCII 字元

@@ -1,7 +1,7 @@
 [user]
-	# Commit者名稱
+	# 版本提交者(committer)名稱
 		name = Ｖ字龍(Vdragon)
-	# Commit者電子郵件地址
+	# 版本提交者(committer)電子郵件地址
 		email = Vdragon.Taiwan@gmail.com
 [core]
 	# 相關操作慣用的文字編輯器

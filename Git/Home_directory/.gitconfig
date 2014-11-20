@@ -5,7 +5,7 @@
 		email = Vdragon.Taiwan@gmail.com
 [core]
 	# 相關操作慣用的文字編輯器
-		editor = vim
+		editor = nano
 	# 相關操作慣用的文字檢視器
 		pager = less --tabs=2
 [credential]
